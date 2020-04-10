@@ -1,0 +1,21 @@
+{
+  "name": "canvas-practice",
+  "version": "1.0.0",
+  "description": "Having fun with charts",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./node_modules/nodemon/bin/nodemon.js server"
+  },
+  "author": "euclidthedark",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "chartjs": "^0.3.24",
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "rambda": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
